@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects page</title>
+    <link rel="stylesheet" href="index2.css">
+    <style>
+        body{
+            margin: 0;
+          
+        }
+        /*the products container*/
+      .product-child #product-btn a{
+       color: white;
+       }
+      
+        .container-zam{
+            padding-top: 150px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-color: green;
+        }
+        .container-zam .zam-h1 h1{
+            font-size: 30px;
+            color: white;
+            margin:20px;
+            text-transform: capitalize;
+            font-family:sans-serif;
+        }
+        .bottom-container{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+        .bottom-container h4{
+            color: white;
+        }
+        .bottom-container p{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-size: 13px;
+        }
+        .bottom-container-child{
+          width: 700px;
+     }
+     @media screen and (max-width:600px){
+      .bottom-container-child{
+         width: auto;
+      }
+     }
+      @media screen and (max-width:1024px){
+       .bottom-container p{
+       font-size: 30px;
+        }
+    }
+      .bottom-container{
+       margin: 30px 10%;
+       font-family: sans-serif;
+       color: gray;
+    }
+
+        /*the products content*/
+        @media screen and (max-width:600px){
+               
+        }
+
+  /*the message app box*/
+.messages{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.messages-text{
+    color: gray;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    margin: 10px;
+}
+@media screen and (max-width:1024px){
+  .messages .messages-text p{
+    font-size: 30px;
+  }
+}
+.messages-text h4{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: green;
+}
+.messages-text p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+.messages-text #messages-btn{
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: 2s;
+}
+#messages-btn a{
+  color: white;
+}
+.messages-icons a img{
+  background-color: rgb(174, 217, 174);
+}
+#messages-btn:hover{
+  background-color: black;
+}
+.messages .messages-icons h4{
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.messages-icons img{
+    width: 50px;
+}
+
+
+/*the footer icones bro*/
+.down-fotos a img{
+  width: 40px;
+}
+
+   /*the last container copy right*/
+.copyright{
+  text-align: center;
+  color: gray;
+  margin:20px;
+  font-family: sans-serif;
+}
+    </style>
+</head>
+<body>
+        <!--the navigation bar container-->
+    <div class="navbar ">
+        <img src="img/m-logo.jpg" alt="">
+        <ul> 
+          <li><a href="home.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="service.html">serivce</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="blogin.html">blog</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <a class="login-btn" href="contact.html">let's talk</a>
+        </ul>
+        <div class="btn12">
+          <span class="btn11"><button class="btn">menu</button></span>
+      </div>
+    </div>
+    
+    <!--the top container-->
+    <div class="container-zam">
+      <div class="zam-h1">
+          <h1>enjoy my awesome projects</h1>
+          <h4>enjoy it with 100% feedback</h4>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <div class="bottom-container-child">
+      <h4>best offer</h4>
+     <p>Note: If you purchase on any of my products, i will be there at anytime to help you take your brand to the next level, intems of customising, fixing bugs or any sort of business gestures.</p>
+    </div>
+    </div>
+
+     
+    
+     <!--the projects contents-->
+   <div class="products-top">
+    <h2>projects</h2>
+    <h4>enjoy my projects with 100% feedback</h4>
+    </div>
+    <div class="product-second">
+    <div class="product-child">
+      <img src="img/AGENCIESS.png" alt="">
+      <h4>Agencies Website</h4>
+      <p>BOOSTRAP5/CSS3/JS website <b>NAME: AGENCIES</b> It's comes with a lot of opportunities, get to know more about it with live demo.</p>
+      <button id="product-btn"><a href="pro1.html">check-it-out</a></button>
+    </div>
+
+    <div class="product-child">
+      <img src="img/portfolio.jpg" alt="">
+      <h4>Portfolio Website</h4>
+      <p>HTML5/CSS3/JS website <b>NAME: PERSONAL PORTFOLIO</b> It's comes with a lot of opportunities, get to know more about it with live demo.</p>
+      <button id="product-btn"><a href="pro2.html">check-it-out</a></button>
+    </div>
+    <div class="product-child">
+      <img src="img/landing.jpg" alt="">
+      <h4>Landing Page</h4>
+      <p>HTML5/CSS3 website <b>NAME: LANDING PAGE</b> It's comes with a lot of opportunities, get to know more about it with live demo.</p>
+      <button id="product-btn"><a href="pro3.html">check-it-out</a></button>
+    </div>
+    <div class="product-child">
+      <img src="img/photography.jpg" alt="">
+      <h4>Photography WebSite</h4>
+      <p>HTML5/CSS3 website <b>NAME: CHICHI</b> It's comes with a lot of opportunities, get to know more about it with live demo.</p>
+      <button id="product-btn"><a href="pro4.html">check-it-out</a></button>
+    </div>
+
+    <div class="product-child">
+    <img src="img/E-MAIL.jpg" alt="">
+    <h4>HTML E-mail</h4>
+      <p>HTML5/CSS3 <b>E-MAIL</b> It's comes with a lot of opportunities, get to know more about it with live demo.</p>
+      <button id="product-btn"><a href="pro5.html">check-it-out</a></button>
+    </div>
+    </div>
+
+
+          <!--the window scroll top body-->
+<button onclick="topFunction()" id="alBtn" title="Go to top"><img src="img/icon31.png" alt=""></button>
+
+
+       <!--the popup navigatio-->
+ <div class="popup-container active">
+    <div class="solo">
+      <a href="home.html">home</a>
+      <a href="about.html">about-me</a>
+      <a href="service.html">service</a>
+      <a href="projects.html">projects</a>
+      <a href="blogin.html">blog</a>
+      <a href="contact.html">contact</a>
+      <a class="login-btn" href="contact.html">let's talk..</a>
+    </div>
+    <div class="close-icon">
+      <img src="img/icon19.png" alt="hola">
+    </div>
+  </div>
+
+   <!--the messaging container bro-->
+   <div class="messages">
+    <div class="messages-text">
+        <h4>contact-me</h4>
+         <p>For us to discuss about your project. Either you want me to fix up your website bugs or build it from scratch, available 24/7</p>
+        <button id="messages-btn"><a href="contact.php">lets talk agently..?</a></button>
+    </div>
+    <div class="messages-icons">
+       <h4>or leave me a messages on the following app</h4>
+       <a href="https://www.facebook.com/profile.php?id=100072008664729"><img src="img/icon9.PNG" alt=""></a>
+       <a href="https://www.instagram.com/alwahab1w2?igsh=OGQ5ZDk2ZA=="><img src="img/icon10.PNG" alt=""></a>
+       <a href="WA.ME/233249489353"><img src="img/icon12.png" alt=""></a>
+    </div>
+</div>
+
+<!--== the subscribe container ==-->
+<div class="foolah">
+  <div class="foolah1">
+    <span id="foolah-img">
+    <img src="img/call25.png" alt="">
+    </span>
+    <h2>text me</h2>
+        <em>If you need me agently and let's discuss<br> feel free to text me i am a simple minded buddy</em>
+  </div>
+
+  <!--the form container-->
+  <div class="foolah1-form">
+    
+  <!--the address container-->
+  <div class="bottom-container">
+    <div class="address-second">
+       <fieldset><legend>My Address</legend>
+         <span>Location: West Africa Ghana</span><br>
+         <span>Zip-code: +233</span><br>
+         <span>Cellphone-Number: +233249489353</span><br>
+         <span>Email: alw98079@gmail.com</span><br>
+         <span>Digital-address: NY-0025-9095</span><br>
+         <span>House-number: BLK37 nayilifong street</span>
+       </fieldset>
+     </div>
+   </div>
+
+  </div>
+ </div>
+
+  <!--the great footer contents bro-->
+<footer>
+  <div class="foolia">
+  <div class="foolia11">
+  <u><h3>my-name is al-wahab</h3></u>
+  <p>you can contact me agently, if what you need is a website to get your contents online. Available 24/7 to help you build any static website. Thanks</p>
+  </div>
+  <div class="foolia22">
+     <ul>
+      <h4>my portfolio</h4>
+      <a href="home.html"><li>home</li></a>
+      <a href="about.html"><li>about-me</li></a>
+      <a href="projects.html"><li>projects</li></a>
+      <a href="service.html"><li>service</li></a>
+      <a href="blogin.html"><li>blog</li></a>
+      <a href="contact.html"><li>contact</li></a>
+     </ul>
+     <ul>
+      <h4>service</h4>
+      <li>portfolio-website</li>
+      <li>landing-page</li>
+      <li>html e-mails</li>
+      <li>blog-website</li>
+      <li>business-website</li>
+      etc.
+     </ul>
+     <div class="cones2">
+     <ul>
+      <h4>link-up now</h4>
+      <li><img src="img/call7.png" alt=""> alw98079@gmail.com</li>
+      <li><img src="img/call17.png" alt="">+233249489353</li>
+     </ul>
+     </div>
+     <div class="down-fotos">
+      <h4>follow me</h4>
+      <a href="https://www.facebook.com/profile.php?id=100072008664729"><img src="img/icon9.PNG" alt=""></a>
+      <a href="https://www.instagram.com/alwahab1w2?igsh=OGQ5ZDk2ZA=="><img src="img/icon10.PNG" alt=""></a>
+      <a href="WA.ME/233249489353"><img src="img/icon12.png" alt=""></a>
+     </div>
+  </div>
+  </div>
+  </footer>
+
+
+
+    <script>
+        const navbarEl = document.querySelector(".navbar");
+        const bottomContainerEl = document.querySelector(".bottom-container");
+       
+        console.log(navbarEl.offsetHeight)
+   
+          console.log(bottomContainerEl.offsetTop);
+        window.addEventListener("scroll", () =>{
+           if(window.scrollY > bottomContainerEl.offsetTop - navbarEl.offsetHeight - 50){
+               navbarEl.classList.add("active")
+           }else{
+               navbarEl.classList.remove("active")
+           }
+        })
+   
+
+         //the alert popup button funtion
+    const containerEl = document.querySelector(".container-zam");
+    const btnEl = document.querySelector(".btn");
+    const popupContainerEl =document.querySelector(".popup-container");
+    const closeIconEl = document.querySelector(".close-icon");
+
+    btnEl.addEventListener("click", ()=>{
+      containerEl.classList.add("active");
+      popupContainerEl.classList.remove("active");
+    });
+
+    closeIconEl.addEventListener("click", ()=>{
+      containerEl.classList.remove("active");
+      popupContainerEl.classList.add("active");
+    });
+
+
+             //the window scroll button
+let albutton= document.getElementById("alBtn")
+			
+      window.onscroll = function(){scrollFunction()};
+      function scrollFunction(){
+         if(document.body.scrollTop > 20 || 
+         document.documentElement.scrollTop > 20){
+           albutton.style.display = "block";
+          }else{
+             albutton.style.display = "none";
+          }
+      }
+       function topFunction(){
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+       }
+   
+
+       </script>
+
+
+<!--the copy right container-->
+<div class="copyright"><p>©Copyright port. All Rights Reserved Developed by Al-Wahab.</p></div>
+</body>
+</html>
